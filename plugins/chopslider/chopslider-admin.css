@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h3.chop-slider-form-title {
+	font-weight:normal;
+	color: #515151;
+    font-size: 20px;
+	margin:40px 0 10px;
+	line-height:25px;
+}
+.styled-list {
+	list-style:disc inside none;
+}
+.styled-list li {
+	margin:2px 0
+}
+.postbox {
+	min-width:0px;
+	margin:20px 0;
+}
+.postbox .hndle {
+    cursor:default;
+}
+.postbox .inside {
+	margin:10px 0;
+}
+.chopslider-form {
+	width:900px;
+}
+.chopslider-form .form-table th {
+	width:400px;
+}
+.chopslider-inner {
+	margin-left:10px;
+}
+.chopslider-expand-tg {
+	border-bottom: 1px dotted;
+    font-size: 15px;
+    text-decoration: none;
+	font-weight:normal;
+}
+.chopslider-tg-content {
+	display:none;
+}
+.widefat .chopslider-edit {
+	overflow:visible;
+}
+.widefat .chopslider-table-foot th {
+	color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-style: italic;
+}
+.chopslider-table-foot div {
+	max-width:200px;
+}
+.chopslider-help {
+	background:url(images/admin/help.png) no-repeat left top;
+	width:12px;
+	height:12px;
+	display:block;
+	float:left;
+	margin-right:3px;
+}
+.chopslider-edit div {
+	position:relative;
+}
+.chopslider-edit .cs-slide-edit-form {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 0 0 10px #AAAAAA;
+    left: 22px;
+    padding: 20px;
+    position: absolute;
+    top: -14px;
+    width: 200px;
+	display:none;
+	z-index:1;
+}
+.cs-slide-edit-form input, .cs-slide-edit-form textarea{
+	width:200px;
+}
+.chopslider-close-form {
+	height: 32px;
+    position: absolute !important;
+    right: -7px;
+    top: -7px;
+    width: 32px;
+	cursor:pointer;
+	background:url(images/admin/close.png);
+}
+.cs-slide-table-template {
+	display:none;
+}
+.cs-tip {
+	color: #555555;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 18px;
+}
+.cs-transitions {
+	float: left;
+    margin: 0 7px;
+}
+.cs-transitions li {
+	margin-bottom:3px;
+}
+.chopslider-slide {
+	position:absolute;
+	left:0px;
+	top:0px;
+	display:none;
+}
+.cs-activeSlide {
+	display:block;
+}
+.chopslider {
+	left:0;
+	top:0;
+	z-index:12000;
+	position:relative;
+}
+#chop-slider-white-layer {
+	background:#fff;
+	position:fixed;
+	width:100%;
+	height:100%;
+	display:none;
+	z-index:10000;
+	left:0px;
+	top:0px;
+}
+#chop-slider-white-layer.cs-black-layer {
+	background:#000;
+}
+.cs-close-preview, .cs-switch-bg {
+	background:#444;
+	color:#fff;
+	padding:10px 20px;
+	cursor:pointer;
+	position:fixed;
+	right:0px;
+	top:0px;
+	z-index:11000;
+}
+.cs-switch-bg {
+	top:50px;
+}
+#chopslider {
+	position:absolute;
+	left:50%;
+	display:none;
+	z-index:18000;
+}
+a#cs-slide-next,a#cs-slide-prev {
+	position:absolute;
+	width:30px;
+	height:30px;
+	background:url(images/admin/sl-control.png) no-repeat left top;
+	display:block;
+	z-index:13000;
+}
+a#cs-slide-next {
+	background:url(images/admin/sl-control.png) no-repeat left bottom;
+	right:10px;
+}
+a#cs-slide-prev {
+	left:10px;
+}
+#chopslider-popup {
+	position:absolute;
+	width:300px;
+	padding:40px;
+	left:50%;
+	top:100px;
+	background:#fff;
+	border:1px solid #ccc;
+	-moz-box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+	box-shadow:0px 0px 15px rgba(0,0,0,0.3);
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	color:#555;
+	display:none;
+	z-index:50;
+}
+#chopslider-popup-close {
+	height: 32px;
+    position: absolute !important;
+    right: -7px;
+    top: -7px;
+    width: 32px;
+	cursor:pointer;
+	background:url(images/admin/close.png);
+}
+.chopslider-order-up {
+	width:13px;
+	height:9px;
+	background:url(images/admin/up.png) no-repeat left top;
+	display:inline-block;
+}
+.chopslider-order-down {
+	width:13px;
+	height:9px;
+	background:url(images/admin/down.png) no-repeat left top;
+	display:inline-block;
+}
+.chopslider-status {
+	position:relative;
+}
+.chopslider-status h3{
+	font-weight:normal
+}
+.chopslider-status-close {
+	border-bottom: 1px dotted;
+    color: #21759B;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 5px;	
+}
+#chopslider-tweets .tweet-text {
+	margin: 0;	
+}
+#chopslider-tweets .tweet-date {
+	margin:0;
+	font-size:10px;
+	font-style:italic;
+	color:#777
+}
+#chopslider-tweets .single-tweet {
+	margin-bottom:10px;
+	padding-bottom:5px;	
+	border-bottom:1px solid #ddd;
+}
+.chopslider-skins {
+	width:800px;
+	height:400px;
+	position:relative;
+	background:#fff;
+	margin:0 auto;
+	border:1px solid #999;
+}
+.chopslider-skin {
+	position:absolute;
+	left:0;
+	top:0;
+	display:none
+}
+.chopslider-skin-labels {
+	text-align:center;
+}
+.chopslider-skin-labels label{
+	margin:0 10px;
+}
+.chopslider-new-version, #chopslider-new-versions {
+	color:green;
+	font-weight:bold;
+}
+.cs-html-thumb {
+	background:#fff;
+	border:1px solid #ddd;
+	text-align:center;
+	width:100px;
+	height:40px;
+	line-height:40px;	
+	display:inline-block;
+	vertical-align:top;
+}
+.cs-manage-slide-thumb {
+	vertical-align:top;
+}
+.cs-preview-content-slide {
+	background:#fff;
+	color:#333;
+	padding:40px;
+}
+.chopslider-settings p {
+	margin:0 0 5px;
+}
+.chopslider-settings h3 {
+	display:none;
+}
+.chopslider-settings h4 {
+	font-size:19px;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+.chopslider-settings th, .chopslider-settings td {
+	padding:0;
+}
+.chopslider-settings th {
+	padding-right:20px;
+	padding-bottom:20px;
+}
